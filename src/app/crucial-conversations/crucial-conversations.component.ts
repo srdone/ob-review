@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
     styleUrls: ['./crucial-conversations.component.css']
 })
 export class CrucialConversationsComponent {
-    title: 'Crucial Conversations'
+    title = 'Crucial Conversations'
 }
