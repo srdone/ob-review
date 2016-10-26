@@ -1,16 +1,18 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
 
 import { ManagingConflictComponent } from './managing-conflict.component';
+
+const routes = [
+    {path: '', component: ManagingConflictComponent }
+];
 
 @NgModule({
     declarations: [
         ManagingConflictComponent
     ],
     imports: [
-        BrowserModule
+        RouterModule.forChild(routes)
     ],
     providers: []
 })

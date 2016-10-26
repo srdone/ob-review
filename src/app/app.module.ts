@@ -5,8 +5,6 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { CrucialConversationsModule, CrucialConversationsComponent } from './crucial-conversations';
-import { ManagingConflictModule, ManagingConflictComponent } from './managing-conflict';
 
 @NgModule({
   declarations: [
@@ -16,11 +14,10 @@ import { ManagingConflictModule, ManagingConflictComponent } from './managing-co
     BrowserModule,
     FormsModule,
     HttpModule,
-    CrucialConversationsModule,
-    ManagingConflictModule,
     RouterModule.forRoot([
-      {path: '', component: ManagingConflictComponent},
-      {path: 'crucial-conversations', component: CrucialConversationsComponent}
+      {path: '', loadChildren: 'app/home/home.module#HomeModule'},
+      {path: 'crucial-conversations', loadChildren: 'app/crucial-conversations/crucial-conversations.module#CrucialConversationsModule'},
+      {path: 'managing-conflict', loadChildren: 'app/managing-conflict/managing-conflict.module#ManagingConflictModule'}
     ])
   ],
   providers: [],

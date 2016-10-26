@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { CrucialConversationsComponent } from './crucial-conversations.component';
+import { HomeComponent } from './home.component';
 
 const routes = [
-    {path: '', component: CrucialConversationsComponent}
+    {path: '', component: HomeComponent}
 ];
 
 @NgModule({
     declarations: [
-        CrucialConversationsComponent
+        HomeComponent
     ],
     imports: [
         RouterModule.forChild(routes)
     ],
     providers: []
 })
-export class CrucialConversationsModule { }
+export class HomeModule { }
