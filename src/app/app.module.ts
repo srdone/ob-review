@@ -17,7 +17,8 @@ import { AppComponent } from './app.component';
     RouterModule.forRoot([
       {path: '', loadChildren: 'app/home/home.module#HomeModule'},
       {path: 'crucial-conversations', loadChildren: 'app/crucial-conversations/crucial-conversations.module#CrucialConversationsModule'},
-      {path: 'managing-conflict', loadChildren: 'app/managing-conflict/managing-conflict.module#ManagingConflictModule'}
+      {path: 'managing-conflict', loadChildren: 'app/managing-conflict/managing-conflict.module#ManagingConflictModule'},
+      {path: 'flash-cards', loadChildren: 'app/flash-cards/flash-cards.module#FlashCardsModule'}
     ])
   ],
   providers: [],
