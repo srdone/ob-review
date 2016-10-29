@@ -88,17 +88,42 @@ export class FlashCardsDataService {
         {
             category: Category.Personality,
             term: 'Core self-evaluation',
-            definition: 'Overall positive self regard with four components: self esteem, self efficacy, neuroticism, locus of control'
+            definition: 'The general personality orientation that guides behavior. Overall positive self regard with four components: self esteem, self efficacy, neuroticism, locus of control'
         },
         {
             category: Category.Personality,
             term: 'Self-monitoring behavior',
-            definition: '(lookup in lecture slides)'
+            definition: 'The tendency to adapt one\'s behavior to the situation. High self monitors are adaptable and sensitive but can be seen as duplicitous. They tend to be less innovative and are more influenced by superficial traits. Low self monitors are authentic and consistent but can be seen as inflexible and insensitive.'
         },
         {
             category: Category.Personality,
             term: 'Big 5 personality traits',
-            definition: '(lookup in lecture slides)'
+            definition: 'Conscientiousness, Extraversion-intraversion, Agreeableness, Emotional stability, Openness to experience.'
+        },
+        {
+            category: Category.Personality,
+            term: 'Conscientiousness (personality trait)',
+            definition: 'Responsible and careful. Related to job performance.'
+        },
+        {
+            category: Category.Personality,
+            term: 'Extraversion-intraversion (personality trait)',
+            definition: 'Expressive vs reserved. Related to performance in sales and management.'
+        },
+        {
+            category: Category.Personality,
+            term: 'Agreeableness (personality trait)',
+            definition: 'Good natured and cooperative. Unrelated to job performance.'
+        },
+        {
+            category: Category.Personality,
+            term: 'Emotional stability (personality trait)',
+            definition: 'Nervousness and stress. Unrelated to job performance.'
+        },
+        {
+            category: Category.Personality,
+            term: 'Openness to experience (personality trait)',
+            definition: 'Imaginative vs conventional. Unrelated to job performance.'
         },
         {
             category: Category.Personality,
@@ -118,22 +143,22 @@ export class FlashCardsDataService {
         {
             category: Category.SupportiveCommunication,
             term: 'Eight attributes of supportive communication',
-            definition: ''
+            definition: 'The eight attributes are Congrucence (message matches feelings), Descriptive (not evaluative), Problem-Oriented (not person-oriented), Validating (exhibit respect), Specific (avoiding generalizing), Conjunctive (relate message to current theme), Owned (take responsibility - use "I"), Listening (lots of reflective responses)'
         },
         {
             category: Category.SupportiveCommunication,
             term: 'Coaching vs Counseling',
-            definition: ''
+            definition: 'Coaching is passing along advice and information and helping others learn something new. It is used for cases of lack of ability, lack of understanding, or incompetence. Counseling is helping others recognize that a problem exists, helping them understand how their attitude matters, and helps them identify ways to address the problem. It is used in cases where problems are attitudes, defensiveness, personality clashes, or problems tied to emotion.'
         },
         {
             category: Category.SupportiveCommunication,
-            term: 'Four listening responses',
-            definition: ''
+            term: 'Four listening principles',
+            definition: 'Reflecting, Probing, Deflecting, Advising'
         },
         {
             category: Category.SupportiveCommunication,
-            term: 'Emotional attunement',
-            definition: ''
+            term: 'Emotional intelligence',
+            definition: 'The ability to: 1 - diagnose and recognize your own emotions, 2 - the ability to control your emotions, 3 - the ability to recognize and diagnose the emotions displayed by others, 4 - the ability to respond appropriately to emotional cues.'
         },
         {
             category: Category.CrucialConversations,
@@ -183,7 +208,7 @@ export class FlashCardsDataService {
         {
             category: Category.CrucialConversations,
             term: 'Decision making methods',
-            definition: ''
+            definition: 'Command: where more involvement adds nothing or is not worth it. Consult: decision makers invite input. Vote: used when there is a need for efficiency and all agree to support the outcome. Consensus: talk until everyone honestly agrees to one decision.'
         },
         {
             category: Category.ConflictManagement,
