@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { FlashCardsComponent } from './flash-cards.component';
@@ -14,7 +15,8 @@ const routes = [
         FlashCardComponent
     ],
     imports: [
-        RouterModule.forChild(routes)
+        RouterModule.forChild(routes),
+        CommonModule
     ],
     providers: [FlashCardsDataService]
 })

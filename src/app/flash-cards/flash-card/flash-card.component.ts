@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 
+import { FlashCardContent } from './flash-card-content.interface';
+
 @Component({
     selector: 'flash-card',
     templateUrl: './flash-card.component.html',
@@ -7,5 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class FlashCardComponent {
     title = 'I am a flash card!';
-    @Input('flash-card') flashCard;
+    @Input('flash-card') flashCard: FlashCardContent;
 }
