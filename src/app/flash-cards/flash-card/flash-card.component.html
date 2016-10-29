@@ -1,4 +1,4 @@
 <div *ngIf="flashCard" (click)="toggled = !toggled">
-  <div *ngIf="!toggled">{{flashCard.term}}</div>
+  <div style="font-weight: bold">{{flashCard.term}}</div>
   <div *ngIf="toggled">{{flashCard.definition}}</div>
 </div>
