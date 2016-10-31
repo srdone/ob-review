@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { FlashCardsDataService, FlashCardContent } from './flash-card';
+import { FlashCardContent } from '../shared';
+import { FlashCardsDataService } from '../core';
 
 @Component({
     selector: 'flash-cards',

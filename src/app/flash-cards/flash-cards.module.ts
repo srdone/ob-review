@@ -3,21 +3,20 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { FlashCardsComponent } from './flash-cards.component';
-import { FlashCardComponent, FlashCardsDataService } from './flash-card';
+import { SharedModule } from '../shared';
 
 const routes = [
     {path: '', component: FlashCardsComponent}
 ]
 
 @NgModule({
-    declarations: [
-        FlashCardsComponent,
-        FlashCardComponent
-    ],
     imports: [
         RouterModule.forChild(routes),
-        CommonModule
+        CommonModule,
+        SharedModule
     ],
-    providers: [FlashCardsDataService]
+    declarations: [
+        FlashCardsComponent
+    ]
 })
 export class FlashCardsModule { }

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { FlashCardContent, Category } from './flash-card-content.interface';
+import { FlashCardContent, Category } from '../../shared';
 
 @Injectable()
 export class FlashCardsDataService {
