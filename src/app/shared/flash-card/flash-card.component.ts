@@ -8,6 +8,7 @@ import { FlashCardContent } from './flash-card-content.interface';
     styleUrls: ['./flash-card.component.css']
 })
 export class FlashCardComponent {
-    title = 'I am a flash card!';
     @Input('flash-card') flashCard: FlashCardContent;
+    @Input('show-term') showTerm: boolean;
+    @Input('show-definition') showDefinition: boolean;
 }

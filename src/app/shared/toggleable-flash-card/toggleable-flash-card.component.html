@@ -1,0 +1,7 @@
+<div *ngIf="flashCard" (click)="toggled = !toggled">
+    <flash-card
+        [flash-card]="flashCard"
+        [show-term]="true"
+        [show-definition]="toggled">
+    </flash-card>
+</div>
