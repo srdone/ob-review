@@ -1,0 +1,11 @@
+<div *ngIf="question">
+    <div class="question">{{question.question}}</div>
+    <div class="answer-group">
+        <ul>
+            <li class="answer" *ngFor="let answer of question.answers">
+                <input type="radio">
+                {{answer.description}}
+            </li>
+        </ul>
+    </div>
+</div>
