@@ -681,13 +681,13 @@ export class FlashCardsDataService {
             category: "Motivation",
             test: "Final",
             term: 'Beneficiary Contact Technique',
-            definition: '??'
+            definition: '?? - I believe this is the concept where bringing in someone to tell about how they benefited from the work of the people in your organization to create motivation. This is very effective at producing intrinsic motivation. Example in class was bringing in a scholarship recipient to the fundraising call center for the school.'
         },
         {
             category: "Motivation",
             test: "Final",
             term: 'Self-Persuasion Intervention',
-            definition: '??'
+            definition: 'When people make public, voluntary, irreversivle statements they become behaviorally committed to them. Use this to help them persuade themselves to be motivated. Creates attitudinal changes that are far more powerful and durable than direct influence tactics. e.g. Asking an employee to reflect on why public service is important to them.'
         },
         {
             category: "Empowerment",
@@ -729,7 +729,7 @@ export class FlashCardsDataService {
             category: "Empowerment",
             test: "Final",
             term: '"Gospel Empowerment" - Agency and Accountability',
-            definition: ''
+            definition: '?? - the idea that the only thing that will cause you to move is what is inside (Elder Bednar quote) - "The only motivation that matters comes from within and is a function of seeing what we really are."'
         },
         {
             category: "Empowerment",
