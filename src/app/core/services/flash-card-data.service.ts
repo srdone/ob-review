@@ -399,7 +399,7 @@ export class FlashCardsDataService {
             category: "Creativity",
             test: "Final",
             term: 'Satisficing',
-            definition: ''
+            definition: '??'
         },
         {
             category: "Creativity",
@@ -453,13 +453,13 @@ export class FlashCardsDataService {
             category: "Creativity",
             test: "Final",
             term: 'Garbage Can Model',
-            definition: ''
+            definition: 'The idea that organizations are chaotic containers of participants, problems, solutions, and choice situations. Chances are that connections will not be made, so we need to intentionally try to make the connections and break down existing silos.'
         },
         {
             category: "Creativity",
             test: "Final",
             term: 'Common Knowledge Effect',
-            definition: ''
+            definition: 'The information that gets the most attention in group settings is the information everyone already has. People tend to suppress knowledge that they have or that others have that does not conform with the knowledge that the group already posesses. This can be overcome by acknowledging expertise up front and structuring discussions. D&C 88:122.'
         },
         {
             category: "Creativity",
@@ -609,13 +609,61 @@ export class FlashCardsDataService {
             category: "Motivation",
             test: "Final",
             term: 'Strategies for Shaping Behavior',
-            definition: ''
+            definition: 'Using rewards and discipline effectively. Using reprimand, redirection, reinforcement. See table 6.5 on pg. 341.'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Discipline',
+            definition: 'A strategy for shaping behavior. Involves responding negatively to an employees behavior with the intention of discouraging future occurrences of that behavior. Failure to reprimand can reduce work unit morale and perpetuate poor performance.'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Rewards',
+            definition: 'A strategy for shaping behavior. Linking desired behaviors with employee-valued outcomes. Not sufficiently rewarding can result in discouragement from high-performers.'
         },
         {
             category: "Motivation",
             test: "Final",
             term: 'Expectancy Theory and Modern Counterpart',
-            definition: ''
+            definition: 'Expectancy theory is Motivation = Expectancy X Instrumentality X Valence. The effect is multiplicative - if any one of the three is zero, no motivation will be present. Limitation is that it focused on carrot and stick reasoning - and when people feel controlled by rewards, intrinsic motivation decreases. Contemporary version is Motivation = Mastery X Autonomy X Purpose.'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Expectancy',
+            definition: 'Part of expectancy theory. Belief that effort results in performance - do I believe I can do it?'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Instrumentality',
+            definition: 'Part of expectancy theory. Belief that performance results in an outcome - will I get a result if I perform?'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Valence',
+            definition: 'Part of expectancy theory. The extent that one values the outcome - do I value the result / reward?'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Mastery',
+            definition: 'Part of modern expectancy theory. Self-efficacy. The feeling that one posesses the capability and competence to perform a task successfully.'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Autonomy',
+            definition: 'Part of modern expectancy theory. Empowerment and delegation.'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Purpose',
+            definition: 'Part of modern expectancy theory. Sense of calling.'
         },
         {
             category: "Motivation",
@@ -627,19 +675,19 @@ export class FlashCardsDataService {
             category: "Motivation",
             test: "Final",
             term: 'Job, Career, and Calling Orientation',
-            definition: ''
+            definition: '"People will work hard for money, they will work harder for other people, but people will work hardest of all when they are dedicated to a cause." Classical views of work: Greeks: work inhibits sublime pursuits. Hebrews: work is a curse for original sin. Protestant Reformation: work is noble, and all work is a calling. Finding and embracing your calling is a sacred obligation. Modern view: calling has come to mean finding your "bliss" - all about the individual and not about service. People with a calling are less likely to think about quitting, are willing to sacrifice for their work, are more satisfied with their work, and are seen as star performers.'
         },
         {
             category: "Motivation",
             test: "Final",
             term: 'Beneficiary Contact Technique',
-            definition: ''
+            definition: '??'
         },
         {
             category: "Motivation",
             test: "Final",
             term: 'Self-Persuasion Intervention',
-            definition: ''
+            definition: '??'
         },
         {
             category: "Empowerment",
