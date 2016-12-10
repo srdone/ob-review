@@ -537,7 +537,7 @@ export class FlashCardsDataService {
             category: "Power and Influence",
             test: "Final",
             term: 'Effects of Power - Self-Interested vs Social Responsibilty Individuals',
-            definition: ''
+            definition: 'People with a self-interested orientation take on less work for themselves when the have more power. Individuals with a social responsibily orientation increase the work they take on when they have more power.'
         },
         {
             category: "Power and Influence",
