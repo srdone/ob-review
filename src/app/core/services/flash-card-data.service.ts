@@ -327,7 +327,7 @@ export class FlashCardsDataService {
             category: "Stress Management",
             test: "Final",
             term: 'Type A Personality',
-            definition: 'Set of personality attributes that are correlated with poor response to stress, including anger, impatience, and competitiveness. See table 2.8 on pg 140 of dms for detailed list of characteristics.'
+            definition: 'Set of personality attributes that are correlated with poor response to stress, including anger, impatience, and competitiveness. See table 2.8 on pg 140 of dms for detailed list of characteristics. Based on four dimensions: competitiveness, life imbalance, hostility, impatience.'
         },
         {
             category: "Stress Management",
@@ -344,8 +344,26 @@ export class FlashCardsDataService {
         {
             category: "Stress Management",
             test: "Final",
+            term: 'Enactive',
+            definition: 'Stress management technique. Take control of your situation by saying no, redesigning work, managing time'
+        },
+        {
+            category: "Stress Management",
+            test: "Final",
+            term: 'Proactive',
+            definition: 'Stress management technique. Increase ability to control by having life balance, exercise, internal locus of control, and commitment and challenge.'
+        },
+        {
+            category: "Stress Management",
+            test: "Final",
+            term: 'Reactive',
+            definition: 'Stress management technique. Relaxation techniques, fantasizing.'
+        },
+        {
+            category: "Stress Management",
+            test: "Final",
             term: 'Time Management Principles',
-            definition: '(see lecture notes)'
+            definition: 'Identify values and guiding principles, start with the long view and work back, make time to save time, take control by doing something important but not urgent every day, get the hard stuff done first, use a list and check things off, don\'t let your list rule you. Focus on the important and not urgent.'
         },
         {
             category: "Creativity",
