@@ -603,7 +603,7 @@ export class FlashCardsDataService {
             category: "Motivation",
             test: "Final",
             term: 'Goal Setting',
-            definition: ''
+            definition: 'Good goal setting involves identifying a goal or objective, identifying specific activities and behaviors to accomplish it, establishing accountability and reporting mechanisms, and establishing an evaluation and reward system.'
         },
         {
             category: "Motivation",
@@ -633,31 +633,31 @@ export class FlashCardsDataService {
             category: "Empowerment",
             test: "Final",
             term: 'Self-Efficacy',
-            definition: 'A dimension of empowerment. See page 447.'
+            definition: 'A dimension of empowerment. The feeling that one posesses the capability and competence to perform a task successfully. Empowered people feel competent and confident they can perform adequately. Perhaps the most important element in empowerment.'
         },
         {
             category: "Empowerment",
             test: "Final",
             term: 'Self-Determination',
-            definition: 'A dimension of empowerment. See page 448.'
+            definition: 'A dimension of empowerment. The feeling that one has a choice. People feel self determined when they can voluntarily and intentionally involve themselves in tasks rather than being forced. This gives a sense of freedom and responsibility. They can try out new ideas. Reduces levels of alienation, increases work peformance and innovation, reduces job strain.'
         },
         {
             category: "Empowerment",
             test: "Final",
             term: 'Personal Consequence',
-            definition: 'A dimension of empowerment. See page 449.'
+            definition: 'A dimension of empowerment. A sense that when one acts, they can produce a result. They do not believe that obstacles in the external environment control their actions. Instead of being reactive, they try to maintain command over what they see.'
         },
         {
             category: "Empowerment",
             test: "Final",
             term: 'Meaning',
-            definition: 'A dimension of empowerment. See page 449.'
+            definition: 'A dimension of empowerment. Valuing the purpose or goals of the activity in which they are engaged. Their own ideals and standards are peceived as consistent with what they are doing.'
         },
         {
             category: "Empowerment",
             test: "Final",
             term: 'Trust',
-            definition: 'A dimension of empowerment. See page 450.'
+            definition: 'A dimension of empowerment. Confidence one will be treated fairly and equitably. They feel that even if they are in subordinate positions, the ultimate outcome will be justice and goodness vs harm or damage. Confidence those in authority will not harm or injure. Trust means having a sense of personal security. They place themselves in a position of vulnerability and have faith that, ultimately, no harm will come to them as a result of that trust. People with this trust are more likely to be honest, open, and congruent rather than deceptive or shallow. More self-assured and willing to learn.'
         },
         {
             category: "Empowerment",
@@ -693,19 +693,19 @@ export class FlashCardsDataService {
             category: "Calling",
             test: "Final",
             term: 'Passion',
-            definition: ''
+            definition: 'An intense desire to pursue a particular activity or interest. Hardwiring, or a feeling you are naturally predisposed to do some things and not others, creates a sense of passion. All about spiritual gifts, which are sometimes very pronounced. Something inside of you you feel compelled to express.'
         },
         {
             category: "Calling",
             test: "Final",
             term: 'Purpose',
-            definition: ''
+            definition: 'A feeling of being drawn to a cause. May not even care how they contribute to it, as long as they can be involved. Something outside of you that becons you to help.'
         },
         {
             category: "Calling",
             test: "Final",
             term: 'Place',
-            definition: ''
+            definition: 'A feeling that you are where you are supposed to be, whether you know why you are there or not. You feel drawn, spiritually and emotionally, to a particular location or setting.'
         }
     ]
 
