@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { FlashCardContent, Test, Category } from '../shared';
 import { FlashCardsDataService } from '../core';
 
+import * as _ from 'lodash';
+
 @Component({
     selector: 'flash-cards',
     templateUrl: './flash-cards.component.html',
@@ -14,21 +16,7 @@ export class FlashCardsComponent implements OnInit {
     tests: Test[] = [
         "Midterm", "Final"
     ];
-    categories: Array<Category | "All"> = [
-        "All",
-        "Teams",
-        "Personality",
-        "Diversity",
-        "Supportive Communication",
-        "Conflict Management",
-        "Crucial Conversations",
-        "Stress Management",
-        "Creativity",
-        "Power and Influence",
-        "Motivation",
-        "Empowerment",
-        "Calling"
-    ]
+    categories: any[] = [];
     selectedTest: Test = "Final";
     selectedCategory: Category | "All" = "All";
 
@@ -46,10 +34,18 @@ export class FlashCardsComponent implements OnInit {
                 }
                 return item.category === this.selectedCategory;
             });
+
+       this.categories = _(this.flashCardsDataService.getFlashCardData())
+            .filter({test: this.selectedTest})
+            .map('category')
+            .uniq()
+            .unshift("All")
+            .value();
     }
 
     changeSelectedTest(test: Test) {
         this.selectedTest = test;
+        this.selectedCategory = "All";
         this.ngOnInit();
     }
 
