@@ -447,7 +447,7 @@ export class FlashCardsDataService {
             category: "Creativity",
             test: "Final",
             term: 'Groupthink Symptoms',
-            definition: ''
+            definition: 'Feeling invulnerable, shared stereotypes, rationalization of evidence of poor decisions, feeling morally invulnerable, self-censorship, hushing deviant viewpoints, guarding against disturbing ideas, illusion of unanimity.'
         },
         {
             category: "Power and Influence",
@@ -459,37 +459,79 @@ export class FlashCardsDataService {
             category: "Power and Influence",
             test: "Final",
             term: 'Expertise',
-            definition: 'Source of personal power charactrized by... (p.288)'
+            definition: 'Source of personal power. Work related knowledge. Equalizer because knowledge can come from many sources. Danger of obsolescence. Accrue power by gaining knowledge.'
         },
         {
             category: "Power and Influence",
             test: "Final",
             term: 'Personal Attraction',
-            definition: 'Source of personal power charactrized by... (p.288)'
+            definition: 'Source of personal power. Charisma, agreeable behavior, fair physical characteristics.'
         },
         {
             category: "Power and Influence",
             test: "Final",
             term: 'Effort',
-            definition: 'Source of personal power charactrized by... (p.288)'
+            definition: 'Source of personal power. Known as a person who will do whatever it takes.'
         },
         {
             category: "Power and Influence",
             test: "Final",
             term: 'Legitimacy',
-            definition: 'Source of personal power charactrized by... (p.288)'
+            definition: 'Source of personal power. Person\'s actions are congruent with the prevailing value system. Vigilant in defending core organization values. Conformity to symbolic practices that show support for organization goals. Trusworthiness from two factors: will they do what they say they will, can they do what they say they will.'
         },
         {
             category: "Power and Influence",
             test: "Final",
             term: 'Position Power Sources',
-            definition: ''
+            definition: 'Centrality, Flexibility, Visibility, Relevance'
+        },
+        {
+            category: "Power and Influence",
+            test: "Final",
+            term: 'Centrality',
+            definition: 'Source of position power. Comes from creating networks. Allows you to satisfy the information needs of others. Both horizontal and vertical networks. One of the biggest mistakes is to become isolated.'
+        },
+        {
+            category: "Power and Influence",
+            test: "Final",
+            term: 'Flexibility',
+            definition: 'Source of position power. Freedom to exercise one\'s judgement, jobs with less routine have less flexibility, flexibility gives more opportunities to gain power.'
+        },
+        {
+            category: "Power and Influence",
+            test: "Final",
+            term: 'Visibility',
+            definition: 'Source of position power. Excellent performance that is visible results in promotion. To increase power, increase the number of influential people with whom you regularly interact. One good source is presenting in meetings.'
+        },
+        {
+            category: "Power and Influence",
+            test: "Final",
+            term: 'Relevance',
+            definition: 'Source of position power. Perform activities that are directly related to central issues at the company. The role of trainer and mentor is a powerful position.'
         },
         {
             category: "Power and Influence",
             test: "Final",
             term: 'Three Influence Strategies',
-            definition: ''
+            definition: 'Retribution, Reciprocity, Reason'
+        },
+        {
+            category: "Power and Influence",
+            test: "Final",
+            term: 'Retribution',
+            definition: 'A strategy of influence. Uses personal threats, denial of rewards, punishment, peer pressure, intimidation. Exploits subordinates desire to avoid unpleasantness. Ignores rights and fairness.'
+        },
+        {
+            category: "Power and Influence",
+            test: "Final",
+            term: 'Reciprocity',
+            definition: 'A strategy of influence. Satisfies self interest of both parties. Includes bargaining, ingratiation. Honors rights and fairness. Makes outcomes desired by manager seem desirable and attractive.'
+        },
+        {
+            category: "Power and Influence",
+            test: "Final",
+            term: 'Reason',
+            definition: 'A strategy of influence. Argument that someone should do something because of the inherent merits of the request. Helping others see why your ideas make sense. Relies on facts and needs to be compelling. Appeals to personal values or goals. Those who use are rated as highly effective by their bosses.'
         },
         {
             category: "Power and Influence",
@@ -507,7 +549,37 @@ export class FlashCardsDataService {
             category: "Motivation",
             test: "Final",
             term: 'Five Tools for Addressing Ability Problems',
-            definition: ''
+            definition: 'Resupply, Retrain, Refit, Reassign, Release'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Resupply',
+            definition: 'Tool for addressing ability problems. Providing personnel, budget, clout and other resources that may have been lacking.'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Retrain',
+            definition: 'Tool for addressing ability problems. Technical skills quickly become obsolete, so retraining in the new skills needed can address ability problems.'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Refit',
+            definition: 'Tool for addressing ability problems. Use others to assist the person in areas where their ability may be lacking (?).'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Reassign',
+            definition: 'Tool for addressing ability problems. Put the employee in a position that is more in line with their abilities and skills.'
+        },
+        {
+            category: "Motivation",
+            test: "Final",
+            term: 'Release',
+            definition: 'Tool for addressing ability problems. Firing the person after all other tools have failed to fix the ability problems. Avoiding this step in order to protect the person is often counterproductive.'
         },
         {
             category: "Motivation",
@@ -555,7 +627,37 @@ export class FlashCardsDataService {
             category: "Empowerment",
             test: "Final",
             term: 'Five Dimensions of Empowerment',
-            definition: ''
+            definition: 'Self-Efficacy, Self-Determination, Personal Consequence, Meaning, Trust'
+        },
+        {
+            category: "Empowerment",
+            test: "Final",
+            term: 'Self-Efficacy',
+            definition: 'A dimension of empowerment. See page 447.'
+        },
+        {
+            category: "Empowerment",
+            test: "Final",
+            term: 'Self-Determination',
+            definition: 'A dimension of empowerment. See page 448.'
+        },
+        {
+            category: "Empowerment",
+            test: "Final",
+            term: 'Personal Consequence',
+            definition: 'A dimension of empowerment. See page 449.'
+        },
+        {
+            category: "Empowerment",
+            test: "Final",
+            term: 'Meaning',
+            definition: 'A dimension of empowerment. See page 449.'
+        },
+        {
+            category: "Empowerment",
+            test: "Final",
+            term: 'Trust',
+            definition: 'A dimension of empowerment. See page 450.'
         },
         {
             category: "Empowerment",
@@ -566,20 +668,26 @@ export class FlashCardsDataService {
         {
             category: "Empowerment",
             test: "Final",
-            term: 'When / How to Delegate',
-            definition: ''
+            term: 'When to Delegate',
+            definition: 'There are five questions to ask to know when to delegate: Do subordinates have the necessary information or expertise? Is the commitment of subordinates critical to successful implementation? Will subordinates\'s capabilities be expanded by the assignment? Do subordinates share with management and with each other common values and perspectives? Is there sufficient time to delegate effectively?'
+        },
+        {
+            category: "Empowerment",
+            test: "Final",
+            term: 'How to Delegate Effectively',
+            definition: '10 principles: begin with the end in mind, delegate completely and be clear about expectations, allow participation in delegation, establish parity between authority and responsibility, work within the organizational structure, provide adequate support, focus accounability on results not methods, delegate consistently, avoid upward delegation, clarify consequences of accomplishment.'
         },
         {
             category: "Empowerment",
             test: "Final",
             term: 'Avoiding Upward Delegation',
-            definition: ''
+            definition: 'Upward delegation is when a subordinate comes to you with a question and instead of helping them answer it themselves, you take responsibility to get back to them. Doing so puts the delegated task back into your responsibilities.'
         },
         {
             category: "Empowerment",
             test: "Final",
-            term: 'Good Delegation Components',
-            definition: ''
+            term: 'To Whom to Delegate?',
+            definition: 'The most participative and empowering alternative is to delegate work to a team and then participate as an equal member of the team.'
         },
         {
             category: "Calling",
@@ -588,13 +696,13 @@ export class FlashCardsDataService {
             definition: ''
         },
         {
-            category: "Empowerment",
+            category: "Calling",
             test: "Final",
             term: 'Purpose',
             definition: ''
         },
         {
-            category: "Empowerment",
+            category: "Calling",
             test: "Final",
             term: 'Place',
             definition: ''

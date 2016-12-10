@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { FlashCardContent } from '../shared';
+import { FlashCardContent, Test, Category } from '../shared';
 import { FlashCardsDataService } from '../core';
 
 @Component({
@@ -11,10 +11,10 @@ import { FlashCardsDataService } from '../core';
 export class FlashCardsComponent implements OnInit {
     title = 'Flash Cards!';
     flashCards: FlashCardContent[];
-    tests: ["Midterm" | "Final"] = [
+    tests: Test[] = [
         "Midterm", "Final"
     ];
-    selectedTest: "Midterm" | "Final" = "Final";
+    selectedTest: Test = "Final";
 
     constructor(private flashCardsDataService: FlashCardsDataService) {}
 
