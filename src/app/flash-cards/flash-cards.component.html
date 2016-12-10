@@ -1,4 +1,10 @@
 <h1>{{title}}</h1>
+<select name="tests" placeholder="Select test..." [ngModel]="selectedTest" (ngModelChange)="changeSelectedTest($event)">
+    <option *ngFor="let test of tests" [ngValue]="test">{{test}}</option>
+</select>
+<select name="categories" placeholder="Select a category..." [ngModel]="selectedCategory" (ngModelChange)="changeSelectedCategory($event)">
+    <option *ngFor="let category of categories" [ngValue]="category">{{category}}</option>
+</select>
 <div *ngFor="let flashCard of flashCards">
     <toggleable-flash-card [flash-card]="flashCard"></toggleable-flash-card>
     <hr/>
