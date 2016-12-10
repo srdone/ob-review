@@ -6,11 +6,15 @@ import {
 
 import { CommonModule } from '@angular/common';
 
-import { FlashCardsDataService } from './services';
+import { SharedModule } from '../shared';
+import { FlashCardsDataService, MultipleChoiceQuestionDataService } from './services';
 
 @NgModule({
-    imports: [CommonModule],
-    providers: [FlashCardsDataService]
+    imports: [CommonModule, SharedModule],
+    providers: [
+        FlashCardsDataService,
+        MultipleChoiceQuestionDataService
+    ]
 })
 export class CoreModule {
 

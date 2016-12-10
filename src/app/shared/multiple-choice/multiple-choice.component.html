@@ -1,0 +1,26 @@
+<form #formRef="ngForm" class="question">
+  <h2
+    [class.correct]="selectedAnswerId === question.correctAnswerId"
+    [class.incorrect]="!!selectedAnswerId && selectedAnswerId !== question.correctAnswerId">
+     {{question.question}}
+  </h2>
+  <div *ngFor="let answer of question.answers">
+    <input
+      [attr.id]="answer.id"
+      name="{{question.id}}"
+      [(ngModel)]="selectedAnswerId"
+      [value]="answer.id"
+      type="radio"
+    >
+    <label [attr.for]="answer.id">{{answer.label}}</label>
+  </div>
+</form>
+<div *ngFor="let answer of question.answers">
+  <div
+    class="answer-message"
+    [class.correct]="selectedAnswerId === question.correctAnswerId"
+    [class.incorrect]="!!selectedAnswerId && selectedAnswerId !== question.correctAnswerId"
+    *ngIf="selectedAnswerId === answer.id">
+    {{answer.message}}
+  </div>
+</div>

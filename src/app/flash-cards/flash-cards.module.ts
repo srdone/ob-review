@@ -12,8 +12,8 @@ const routes = [
 @NgModule({
     imports: [
         RouterModule.forChild(routes),
-        CommonModule,
-        SharedModule
+        SharedModule,
+        CommonModule
     ],
     declarations: [
         FlashCardsComponent

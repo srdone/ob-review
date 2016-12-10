@@ -10,11 +10,15 @@ import { FlashCardsDataService } from '../core';
 })
 export class FlashCardsComponent implements OnInit {
     title = 'Flash Cards!';
-    flashCards: FlashCardContent[]
+    flashCards: FlashCardContent[];
+    tests: ["Midterm" | "Final"] = [
+        "Midterm", "Final"
+    ];
+    selectedTest: "Midterm" | "Final" = "Final";
 
     constructor(private flashCardsDataService: FlashCardsDataService) {}
 
     ngOnInit() {
-        this.flashCards = this.flashCardsDataService.getFlashCardData();
+        this.flashCards = this.flashCardsDataService.getFlashCardData().filter(item => item.test === this.selectedTest);
     }
 }

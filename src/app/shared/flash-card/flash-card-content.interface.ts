@@ -1,14 +1,6 @@
-export const enum Category {
-    Teams,
-    Personality,
-    Diversity,
-    SupportiveCommunication,
-    ConflictManagement,
-    CrucialConversations
-}
-
 export interface FlashCardContent {
     term: String;
     definition: String;
-    category: Category
+    category: "Teams" | "Personality" | "Diversity" | "Supportive Communication" | "Conflict Management" | "Crucial Conversations" | "Stress Management" | "Creativity" | "Power and Influence" | "Motivation" | "Empowerment" | "Calling";
+    test: "Midterm" | "Final";
 }

@@ -2,22 +2,21 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
+import { MultipleChoiceQuestionTestComponent } from './multiple-choice-question-test.component';
 import { SharedModule } from '../shared';
-import { HomeComponent } from './home.component';
 
 const routes = [
-    {path: '', component: HomeComponent}
-];
+    {path: '', component: MultipleChoiceQuestionTestComponent}
+]
 
 @NgModule({
-    declarations: [
-        HomeComponent
-    ],
     imports: [
         RouterModule.forChild(routes),
         CommonModule,
         SharedModule
     ],
-    providers: []
+    declarations: [
+        MultipleChoiceQuestionTestComponent
+    ]
 })
-export class HomeModule { }
+export class MultipleChoiceQuestionTestModule { }

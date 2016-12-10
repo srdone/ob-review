@@ -1,0 +1,7 @@
+:host /deep/ multiple-choice .correct {
+  color: green;
+}
+
+:host /deep/ multiple-choice .incorrect {
+  color: red;
+}
